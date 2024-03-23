@@ -58,7 +58,7 @@ dns_bind_add() {
   # Add TXT record to zone file  
   echo "$fulldomain. IN TXT \"$txtvalue\"" >> "$zone_file"
 
-   Reload BIND to apply changes
+  # Reload BIND to apply changes
   if $RELOAD_CMD; then
     _info "BIND reloaded successfully, TXT record added."
     return 0
