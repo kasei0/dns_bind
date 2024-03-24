@@ -1,6 +1,6 @@
 # dns_bind
 
-This script adds a TXT record to a BIND DNS zone file for using acme.sh to get a certificate, if you set up an authority dns server for your domain.
+This script adds and removes a TXT record to a BIND DNS zone file for using acme.sh to get a certificate, if you set up an authority dns server for your domain.
 
 You can use this script after move this file into acme dir, add `dns dns_bind` while using acme.sh 
  
